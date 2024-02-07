@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Search</title>
+    <link rel="icon" type="image/x-icon" href="spotify_icon.ico">
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="https://cdn.lineicons.com/1.0.1/LineIcons.min.css">
+    <script src="https://kit.fontawesome.com/4a08d476e2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="sidebar-top">
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Spotify_logo_with_text.svg/2560px-Spotify_logo_with_text.svg.png"
+                    alt="Spotify logo">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="home.html"><img width="28" height="28"
+                                src="https://img.icons8.com/material-outlined/24/FFFFFF/home--v2.png"
+                                alt="home--v2" /><span style="padding-left: 25px;">Home</span></a></li>
+                    <li><a href="search.html"><img width="24" height="24"
+                                src="https://img.icons8.com/android/24/FFFFFF/search.png" alt="search" /><span
+                                style="padding-left: 25px; color: white;">Search</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="sidebar-bot">
+            <div class="library">
+                <ul>
+                    <li><a href="#"><img width="24" height="24"
+                                src="https://img.icons8.com/external-inkubators-glyph-inkubators/25/FFFFFF/external-library-music-inkubators-glyph-inkubators.png"
+                                alt="external-library-music-inkubators-glyph-inkubators" /><span
+                                style="padding-left: 20px;">Your Library</span></a></li>
+                </ul>
+                <div class="ctpl">
+                    <p>Create your first playlist</p>
+                    <span>It's easy, we'll help you</span>
+                    <button>Create Playlist</button>
+                </div>
+            </div>
+            <div class="footer">
+                <ul>
+                    <li><a href="#">Cookies</a></li>
+                </ul>
+                <br><br>
+                <button class="button">🌐 English</button>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+
+        <div class="top">
+            <div class="pn">
+                <button>
+                    <img width="16" height="16" src="https://img.icons8.com/ios/35/FFFFFF/back--v1.png"
+                        alt="back--v1" />
+                </button>
+                <button>
+                    <img width="16" height="16" src="https://img.icons8.com/ios/35/FFFFFF/forward--v1.png"
+                        alt="forward--v1" />
+                </button>
+            </div>
+            <div class="search-container">
+                <span class="lni lni-search search-icon"></span>
+                <input type="text" id="search" name="search" class="search-input"
+                    placeholder="What do you want to listen to?">
+            </div>
+
+            <div class="log-sig">
+                <ul>
+                    <li>
+                        <a href="#">Sign Up</a>
+                    </li>
+                </ul>
+                <button>Log in</button>
+            </div>
+
+        </div>
+        <section class="container">
+            <h2 class="header">Browse All</h2>
+            <div class="body">
+                <div class="item category">
+                    <a href="page1.html">
+                        <h3>Podcasts</h3>
+                        <img src="https://i.scdn.co/image/ab6765630000ba8a81f07e1ead0317ee3c285bfa" alt="">
+                    </a>
+                </div>
+
+                <div class="item category" style="background-color: #e1118c;">
+                    <a href="page2.html">
+                        <h3>New Releases</h3>
+                        <img src="https://i.scdn.co/image/ab67706f000000027ea4d505212b9de1f72c5112" alt="">
+                    </a>
+                </div>
+
+                <div class="item category" style="background-color: #006450;">
+                    <a href="page3.html">
+                        <h3>Hindi</h3>
+                        <img src="https://i.scdn.co/image/ab67fb8200005caff5976b97bcf10d98acbae2cd" alt="">
+                    </a>
+                </div>
+                <div class="item category" style="background-color: #8400E7;">
+                    <a href="page4.html">
+                        <h3>Punjabi</h3>
+                        <img src="https://i.scdn.co/image/ab67706f00000002461fda205f5f952eff8bae70" alt="">
+                    </a>
+                </div>
+
+                <div class="item category" style="background-color: #1E3264;">
+                    <a href="#">
+                        <h3>For You</h3>
+                        <img src="https://t.scdn.co/images/ea364e99656e46a096ea1df50f581efe" alt="">
+                    </a>
+                </div>
+
+                <div class="item category" style="background-color: #E8115B;">
+                    <a href="#">
+                        <h3>Pop</h3>
+                        <img src="https://i.scdn.co/image/ab67fb8200005cafa862ab80dd85682b37c4e768" alt="">
+                    </a>
+                </div>
+                <div class="item category" style="background-color: #A56752;">
+                    <a href="#">
+                        <h3>Charts</h3>
+                        <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="item category" style="background-color: #B02897;">
+                    <a href="#">
+                        <h3>Tamil</h3>
+                        <img src="https://i.scdn.co/image/ab67fb8200005caf4b3beede484da74b233fa299" alt="">
+                    </a>
+                </div>
+
+                <div class="item category" style="background-color: #0D73EC;">
+                    <a href="#">
+                        <h3>Telugu</h3>
+                        <img src="https://i.scdn.co/image/ab67fb8200005cafbca4d84993408c24bec78de8" alt="">
+                    </a>
+                </div>
+                <div class="item category" style="background-color: #8E66AC;">
+                    <a href="#">
+                        <h3>Video Podcasts</h3>
+                        <img src="https://i.scdn.co/image/9af79fd06e34dea3cd27c4e1cd6ec7343ce20af4" alt="">
+                    </a>
+                </div>
+
+                <div class="item category" style="background-color: #E13300;">
+                    <a href="#">
+                        <h3>Decades</h3>
+                        <img src="https://i.scdn.co/image/ab67fb8200005caff005a355830c374754d32868" alt="">
+                    </a>
+                </div>
+
+                <div class="item category" style="background-color: #777777;">
+                    <a href="#">
+                        <h3>Hip-Hop</h3>
+                        <img src="https://i.scdn.co/image/ab67fb8200005caf9e3dea60be755ccd97b7351f" alt="">
+                    </a>
+                </div>
+                <div class="item category" style="background-color: #8D67AB;">
+                    <a href="#">
+                        <h3>Student</h3>
+                        <img src="https://i.scdn.co/image/ab67fb8200005cafdad1281e13697e8d8cf8f347" alt="">
+                    </a>
+                </div>
+
+                <div class="item category" style="background-color: #148A08;">
+                    <a href="#">
+                        <h3>Rock</h3>
+                        <img src="https://i.scdn.co/image/ab67fb8200005cafae7e69beb88f16969641b53e" alt="">
+                    </a>
+                </div>
+
+                <div class="item category" style="background-color: #E91429;">
+                    <a href="#">
+                        <h3>Sleep</h3>
+                        <img src="https://i.scdn.co/image/ab67706f00000002b70e0223f544b1faa2e95ed0" alt="">
+                    </a>
+                </div>
+                <div class="item category">
+                    <a href="#">
+                        <h3>Indian Classical</h3>
+                        <img src="https://i.scdn.co/image/ab67706f000000028bc55791c7c394b24c319877" alt="">
+                    </a>
+                </div>
+
+                <div class="item category" style="background-color: #BA5D07;">
+                    <a href="#">
+                        <h3>Instrumental</h3>
+                        <img src="https://i.scdn.co/image/ab67706f000000028ed1a5002b96c2ea882541b2" alt="">
+                    </a>
+                </div>
+
+                <div class="item category" style="background-color: #503750;">
+                    <a href="#">
+                        <h3>Soul</h3>
+                        <img src="https://i.scdn.co/image/ab67fb8200005cafd82e2c83fe100a89e9cbb2a2" alt="">
+                    </a>
+                </div>
+                <div class="item category" style="background-color: #AF2896;">
+                    <a href="#">
+                        <h3>Focus</h3>
+                        <img src="https://i.scdn.co/image/ab67706f00000002e4eadd417a05b2546e866934" alt="">
+                    </a>
+                </div>
+
+                <div class="item category" style="background-color:#1E3264 ;">
+                    <a href="#">
+                        <h3>Mood</h3>
+                        <img src="https://i.scdn.co/image/ab67fb8200005caf271f9d895003c5f5561c1354" alt="">
+                    </a>
+                </div>
+
+                <div class="item category" style="background-color: #148A08;">
+                    <a href="#">
+                        <h3>GLOW</h3>
+                        <img src="https://i.scdn.co/image/ab67fb8200005caf50cfe3fbd3a9fb8810da45ea" alt="">
+                    </a>
+                </div>
+                <div class="item category" style="background-color: #5179A1;">
+                    <a href="#">
+                        <h3>Devotional</h3>
+                        <img src="https://t.scdn.co/images/ad3e3f8f80eb494d998a435f7a5ae8c7" alt="">
+                    </a>
+                </div>
+
+                <div class="item category" style="background-color: #A56752;">
+                    <a href="#">
+                        <h3>Indie</h3>
+                        <img src="https://i.scdn.co/image/ab67fb8200005cafa1a252e3a815b65778d8c2aa" alt="">
+                    </a>
+                </div>
+
+                <div class="item category" style="background-color: #E61E32;">
+                    <a href="#">
+                        <h3>Love</h3>
+                        <img src="https://i.scdn.co/image/ab67fb8200005cafb03c6f8e7efca2ae36f41b31" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <div class="preview">
+            <div class="text">
+                <h5>Preview of Spotify</h5>
+                <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+            </div>
+            <div class="button">
+                <button type="button">Sign up for free</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
